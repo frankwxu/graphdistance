@@ -1,0 +1,16 @@
+[
+  {
+    "id": "1",
+    "name": "Hillary Clinton",
+    "description": "Hillary Diane Rodham Clinton is an American politician",
+    "age": 70,
+    "birth": "US"
+  },
+  {
+    "id": "2",
+    "name": "Christopher G. Kollmann",
+    "description": "Forensic investigator",
+    "age": 48,
+    "birth": "US"
+  }
+]

@@ -1,0 +1,28 @@
+[
+  {
+    "id": "1",
+    "name": "Hillary Clinton",
+    "description": "Hillary Diane Rodham Clinton is an American politician",
+    "age": 70,
+    "birth": "US"
+  },
+  {
+    "id": "4",
+    "name": "Christopher G. Kollmann",
+    "description": "Forensic investigator",
+    "age": 48,
+    "birth": "US"
+  },
+  {
+    "id": "3",
+    "source_ref": "1",
+    "target_ref": "4"
+  },
+  {
+    "id": "2",
+    "name": "Elena Popescu",
+    "description": "A professor of computer science at Univeresity of Romania",
+    "age": 48,
+    "birth": "Romania"
+  }
+]
