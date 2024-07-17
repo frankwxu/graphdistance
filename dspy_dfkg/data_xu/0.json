@@ -1,0 +1,59 @@
+[
+    {
+        "type": "malware",
+        "id": "malware--d1c6",
+        "name": "Poison Ivy Variant d1c6",
+        "description": "Variant of Poison Ivy used by Adversary Bravo",
+        "malware_types": ["trojan"],
+        "created_by_ref": "threat-actor--bravo"
+    },
+    {
+        "type": "indicator",
+        "id": "indicator--file-hash-md5",
+        "indicator_types": ["file-hash-md5"],
+        "pattern": "[file:hashes.md5 = 'd1c6_hash_md5']",
+        "valid_from": "2015-05-01T00:00:00Z"
+    },
+    {
+        "type": "indicator",
+        "id": "indicator--file-hash-sha1",
+        "indicator_types": ["file-hash-sha1"],
+        "pattern": "[file:hashes.sha1 = 'd1c6_hash_sha1']",
+        "valid_from": "2015-05-01T00:00:00Z"
+    },
+    {
+        "type": "campaign",
+        "id": "campaign--bravo-phishing",
+        "name": "Adversary Bravo Phishing Campaign",
+        "description": "Spear phishing campaigns by Adversary Bravo to deliver Poison Ivy Variant d1c6",
+        "created_by_ref": "threat-actor--bravo"
+    },
+    {
+        "type": "threat-actor",
+        "id": "threat-actor--bravo",
+        "name": "Adversary Bravo",
+        "description": "Threat actor known for using phishing attacks to deliver malware",
+        "sophistication": "high"
+    },
+    {
+        "type": "tool",
+        "id": "tool--poison-ivy",
+        "name": "Poison Ivy",
+        "description": "Remote access malware used by Adversary Bravo",
+        "created_by_ref": "threat-actor--bravo"
+    },
+    {
+        "type": "attack-pattern",
+        "id": "attack-pattern--phishing",
+        "name": "Phishing",
+        "description": "Adversary Bravo's initial compromise strategy",
+        "created_by_ref": "threat-actor--bravo"
+    },
+    {
+        "type": "attack-pattern",
+        "id": "attack-pattern--registry-key",
+        "name": "Registry Key Manipulation",
+        "description": "Creation of specific registry key by Poison Ivy Variant d1c6",
+        "created_by_ref": "malware--d1c6"
+    }
+]

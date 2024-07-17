@@ -1,0 +1,51 @@
+[
+    {
+        "type": "malware",
+        "id": "malware--d6e6f0a6-7d9c-4f3b-8f3d-3e9c6d6b6f5d",
+        "name": "Online Job Site Trojan",
+        "hashes": {
+            "MD5": "1717b7fff97d37a1e1a0029d83492de1",
+            "SHA-1": "c79a326f8411e9488bdc3779753e1e3489aaedea"
+        }
+    },
+    {
+        "type": "registry-key",
+        "id": "registry-key--f7e6d0b6-6c8d-5e2a-7d1c-2f8b5a4c3e2f",
+        "key": "HKEY_LOCAL_MACHINE\\SYSTEM\\ControlSet001\\Services\\WSALG2"
+    },
+    {
+        "type": "organization",
+        "id": "organization--a8b9c1d2-3e4f-5a6b-7c8d-9e0f1a2b3c4d",
+        "name": "Pym Technologies"
+    },
+    {
+        "type": "organization",
+        "id": "organization--b9c1d2e3-4f5a-6b7c-8d9e-0f1a2b3c4d5e",
+        "name": "Oscorp Industries"
+    },
+    {
+        "type": "incident",
+        "id": "incident--c1d2e3f4-5a6b-7c8d-9e0f-1a2b3c4d5e6f",
+        "description": "Oscorp detected the Online Job Site Trojan on their network in February 2017, matching file hashes and registry key.",
+        "relatedMalware": "malware--d6e6f0a6-7d9c-4f3b-8f3d-3e9c6d6b6f5d",
+        "relatedRegistryKey": "registry-key--f7e6d0b6-6c8d-5e2a-7d1c-2f8b5a4c3e2f",
+        "attributedTo": [
+            "organization--b9c1d2e3-4f5a-6b7c-8d9e-0f1a2b3c4d5e"
+        ]
+    },
+    {
+        "type": "threat-actor",
+        "id": "threat-actor--d2e3f4a5-6b7c-8d9e-0f1a2b3c4d5e",
+        "name": "Unknown",
+        "roles": [
+            "malware developer"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--e3f4a5b6-7c8d-9e0f-1a2b3c4d5e6f",
+        "relationship_type": "attributed-to",
+        "source_ref": "incident--c1d2e3f4-5a6b-7c8d-9e0f-1a2b3c4d5e6f",
+        "target_ref": "threat-actor--d2e3f4a5-6b7c-8d9e-0f1a2b3c4d5e"
+    }
+]

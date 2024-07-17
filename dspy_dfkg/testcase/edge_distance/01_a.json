@@ -1,0 +1,17 @@
+[
+  {
+    "id": "10",
+    "name": "Node A",
+    "description": "This is Node A"
+  },
+  {
+    "id": "20",
+    "name": "Node B",
+    "description": "This is Node B"
+  },
+  {
+    "id": "3",
+    "source_ref": "10",
+    "target_ref": "20"
+  }
+]

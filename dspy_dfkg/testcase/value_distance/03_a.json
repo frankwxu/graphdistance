@@ -1,0 +1,17 @@
+[
+  {
+    "id": "1",
+    "name": "Hillary Clinton",
+    "description": "Hillary Diane Rodham Clinton is an American politician",
+    "age": 70,
+    "birth": "French",
+    "adddress": "420 N Charles St, Baltimore, MD 21202"
+  },
+  {
+    "id": "2",
+    "name": "Elon Musk",
+    "description": "Elon Reeve Musk is a businessman and investor.",
+    "age": 25,
+    "birth": "South Africa"
+  }
+]

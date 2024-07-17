@@ -1,0 +1,26 @@
+[
+  {
+    "id": "1",
+    "name": "Hillary Clinton",
+    "description": "Hillary Diane Rodham Clinton is an American politician",
+    "age": 70,
+    "birth": "US",
+    "is_friend_of_refs": ["2", "3"],
+    "is_of_refs": ["2", "3"],
+    "is_friend_of_ref": "3"
+  },
+  {
+    "id": "2",
+    "name": "Christopher G. Kollmann",
+    "description": "Forensic investigator",
+    "age": 48,
+    "birth": "US"
+  },
+  {
+    "id": "3",
+    "name": "Frank xu",
+    "description": "Professor at UB",
+    "age": 88,
+    "birth": "China"
+  }
+]

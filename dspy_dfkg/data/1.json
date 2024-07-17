@@ -1,0 +1,28 @@
+[
+    {
+        "type": "marking-definition",
+        "id": "marking-definition--f47f1e4e-1477-4b1b-9b3e-6e8e7f3e2f5e",
+        "created": "2017-04-14T00:00:00Z",
+        "definition_type": "statement",
+        "definition": {
+            "copyright": "Stark Industries"
+        }
+    },
+    {
+        "type": "marking-definition",
+        "id": "marking-definition--f47f1e4e-1477-4b1b-9b3e-6e8e7f3e2f5f",
+        "created": "2017-04-14T00:00:00Z",
+        "definition_type": "tlp",
+        "definition": {
+            "tlp": "AMBER"
+        }
+    },
+    {
+        "type": "indicator",
+        "id": "indicator--f47f1e4e-1477-4b1b-9b3e-6e8e7f3e2f5d",
+        "created": "2017-04-14T00:00:00Z",
+        "valid_from": "2017-04-14T00:00:00Z",
+        "pattern": "[ipv4-addr:value = '10.0.0.0']",
+        "marking_ref": "marking-definition--f47f1e4e-1477-4b1b-9b3e-6e8e7f3e2f5f"
+    }
+]

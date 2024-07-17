@@ -1,0 +1,22 @@
+[
+  {
+    "id": "1",
+    "name": "Node A",
+    "description": "This is Node A"
+  },
+  {
+    "id": "2",
+    "name": "Node C",
+    "description": "This is Node B"
+  },
+  {
+    "id": "3",
+    "source_ref": "1",
+    "target_ref": "2"
+  },
+  {
+    "id": "7",
+    "name": "Node Cdd",
+    "description": "This is Node Bcvc"
+  }
+]

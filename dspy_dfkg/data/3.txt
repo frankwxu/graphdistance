@@ -1,0 +1,5 @@
+This scenario describes a collaboration between Pym Technologies and Oscorp Industries. Pym Technologies shared information about the "Online Job Site Trojan," a trojan disguised as "resume.pdf" that creates a specific registry key. 
+
+In February 2017, Oscorp detected this malware on their network, identified by matching file hashes (MD5: 1717b7fff97d37a1e1a0029d83492de1, SHA-1: c79a326f8411e9488bdc3779753e1e3489aaedea) and the registry key (HKEY_LOCAL_MACHINE\SYSTEM\ControlSet001\Services\WSALG2). 
+
+Oscorp issued a sighting notification, referencing the observed data and confirming the malware's presence. This incident underscores the importance of sharing threat intelligence for improving cybersecurity across organizations.

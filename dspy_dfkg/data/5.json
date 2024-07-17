@@ -1,0 +1,25 @@
+[
+    {
+        "type": "file",
+        "spec_version": "2.1",
+        "id": "file--d7e4f3b6-7b3d-4b3d-8f1e-3b7c4f3d2e1a",
+        "hashes": {
+            "SHA-256": "ef537f25c895bfa782526529a9b63d97aa631564d5d789c2b765448c8635fb6c"
+        }
+    },
+    {
+        "type": "malware",
+        "spec_version": "2.1",
+        "id": "malware--c7e2a1d4-6a2b-4c1d-9e3f-2a4b1c2e3a7c",
+        "name": "Poison Ivy",
+        "description": "Remote-access trojan (RAT) known for enabling unauthorized remote control of infected systems."
+    },
+    {
+        "type": "indicator",
+        "spec_version": "2.1",
+        "id": "indicator--b5c8d2a1-3b4d-4e5f-8c2a-1d3b4c5e8d2a",
+        "pattern": "[file:hashes.SHA-256 = 'ef537f25c895bfa782526529a9b63d97aa631564d5d789c2b765448c8635fb6c']",
+        "valid_from": "2014-01-01T00:00:00Z",
+        "description": "Indicator for potential compromise by Poison Ivy malware based on specific file hash."
+    }
+]

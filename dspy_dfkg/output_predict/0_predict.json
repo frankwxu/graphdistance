@@ -1,0 +1,62 @@
+[
+    {
+        "type": "threat-actor",
+        "id": "threat-actor--1",
+        "name": "Adversary Bravo",
+        "aliases": [
+            "Adversary Bravo"
+        ],
+        "first_seen": "2015-05"
+    },
+    {
+        "type": "malware",
+        "id": "malware--1",
+        "name": "Poison Ivy Variant d1c6",
+        "aliases": [
+            "Poison Ivy Variant d1c6"
+        ],
+        "malware_type": "Remote Access Trojan",
+        "uses": [
+            "Phishing"
+        ]
+    },
+    {
+        "type": "registry-key",
+        "id": "registry-key--1",
+        "key": "HKEY_LOCAL_MACHINE\\SYSTEM\\ControlSet001\\Services\\WSALG2",
+        "created_by": "Poison Ivy Variant d1c6"
+    },
+    {
+        "type": "indicator",
+        "id": "indicator--1",
+        "indicator_type": "File Hash",
+        "hashes": {
+            "MD5": "1234567890abcdef",
+            "SHA-1": "a1b2c3d4e5f6"
+        },
+        "related_to": [
+            "malware--1"
+        ]
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--1",
+        "relationship_type": "uses",
+        "source_ref": "threat-actor--1",
+        "target_ref": "malware--1"
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--2",
+        "relationship_type": "created",
+        "source_ref": "malware--1",
+        "target_ref": "registry-key--1"
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--3",
+        "relationship_type": "indicates",
+        "source_ref": "indicator--1",
+        "target_ref": "malware--1"
+    }
+]

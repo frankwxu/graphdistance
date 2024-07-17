@@ -1,0 +1,33 @@
+[
+    {
+        "type": "indicator",
+        "id": "indicator--1234",
+        "created": "2022-01-01T00:00:00Z",
+        "modified": "2022-01-01T00:00:00Z",
+        "labels": [
+            "malicious-activity"
+        ],
+        "pattern": "[url:value = 'maliciousurl.com']"
+    },
+    {
+        "type": "relationship",
+        "id": "relationship--5678",
+        "created": "2022-01-02T00:00:00Z",
+        "modified": "2022-01-02T00:00:00Z",
+        "relationship_type": "indicates",
+        "source_ref": "indicator--1234",
+        "target_ref": "threat-actor--abcd"
+    },
+    {
+        "type": "sighting",
+        "id": "sighting--9012",
+        "created": "2022-01-03T00:00:00Z",
+        "modified": "2022-01-03T00:00:00Z",
+        "first_seen": "2022-01-03T00:00:00Z",
+        "last_seen": "2022-01-03T00:00:00Z",
+        "count": 1,
+        "observed_data_refs": [
+            "indicator--1234"
+        ]
+    }
+]

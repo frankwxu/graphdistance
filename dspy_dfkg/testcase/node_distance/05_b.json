@@ -1,0 +1,21 @@
+[
+  {
+    "id": "1",
+    "name": "Hillary Clinton",
+    "description": "Hillary Diane Rodham Clinton is an American politician",
+    "age": 70,
+    "birth": "US"
+  },
+  {
+    "id": "2",
+    "name": "Elon Musk",
+    "description": "Elon Reeve Musk is a businessman and investor.",
+    "age": 52,
+    "birth": "South Africa"
+  },
+  {
+    "id": "3",
+    "source_ref": "1",
+    "target_ref": "2"
+  }
+]

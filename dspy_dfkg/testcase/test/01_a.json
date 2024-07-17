@@ -1,0 +1,17 @@
+[
+  {
+    "id": "4800",
+    "name": "Node A",
+    "description": "This is Node A"
+  },
+  {
+    "id": "200",
+    "name": "Node B",
+    "description": { "short": "This is Node B", "long": "This is B" }
+  },
+  {
+    "id": "300",
+    "source_ref": "4800",
+    "target_ref": "200"
+  }
+]
